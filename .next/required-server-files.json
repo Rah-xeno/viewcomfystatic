@@ -5,7 +5,7 @@
       "_sentryRewriteFramesDistDir": ".next",
       "_sentryRewriteFramesAssetPrefixPath": "",
       "_sentryRewritesTunnelPath": "/monitoring",
-      "_sentryRelease": "619bdf7726b462bfaf0d225f19b5b86f8b2c8f4b"
+      "_sentryRelease": "be577ed343fefc3b183b954d1aeb447c2214fc61"
     },
     "webpack": null,
     "typescript": {
