@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "config": {
+    "env": {
+      "_sentryRewriteFramesDistDir": ".next",
+      "_sentryRewriteFramesAssetPrefixPath": "",
+      "_sentryRewritesTunnelPath": "/monitoring",
+      "_sentryRelease": "619bdf7726b462bfaf0d225f19b5b86f8b2c8f4b"
+    },
+    "webpack": null,
+    "typescript": {
+      "ignoreBuildErrors": false
+    },
+    "typedRoutes": false,
+    "distDir": ".next",
+    "cleanDistDir": true,
+    "assetPrefix": "",
+    "cacheMaxMemorySize": 52428800,
+    "configOrigin": "next.config.mjs",
+    "useFileSystemPublicRoutes": true,
+    "generateEtags": true,
+    "pageExtensions": [
+      "tsx",
+      "ts",
+      "jsx",
+      "js"
+    ],
+    "poweredByHeader": true,
+    "compress": true,
+    "images": {
+      "deviceSizes": [
+        640,
+        750,
+        828,
+        1080,
+        1200,
+        1920,
+        2048,
+        3840
+      ],
+      "imageSizes": [
+        32,
+        48,
+        64,
+        96,
+        128,
+        256,
+        384
+      ],
+      "path": "/_next/image",
+      "loader": "default",
+      "loaderFile": "",
+      "domains": [],
+      "disableStaticImages": false,
+      "minimumCacheTTL": 14400,
+      "formats": [
+        "image/webp"
+      ],
+      "maximumRedirects": 3,
+      "dangerouslyAllowLocalIP": false,
+      "dangerouslyAllowSVG": false,
+      "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
+      "contentDispositionType": "attachment",
+      "localPatterns": [
+        {
+          "pathname": "**",
+          "search": ""
+        }
+      ],
+      "remotePatterns": [
+        {
+          "hostname": "*"
+        }
+      ],
+      "qualities": [
+        75
+      ],
+      "unoptimized": false
+    },
+    "devIndicators": {
+      "position": "bottom-left"
+    },
+    "onDemandEntries": {
+      "maxInactiveAge": 60000,
+      "pagesBufferLength": 5
+    },
+    "basePath": "",
+    "sassOptions": {},
+    "trailingSlash": false,
+    "i18n": null,
+    "productionBrowserSourceMaps": true,
+    "excludeDefaultMomentLocales": true,
+    "reactProductionProfiling": false,
+    "reactStrictMode": null,
+    "reactMaxHeadersLength": 6000,
+    "httpAgentOptions": {
+      "keepAlive": true
+    },
+    "logging": {},
+    "compiler": {},
+    "expireTime": 31536000,
+    "staticPageGenerationTimeout": 60,
+    "output": "standalone",
+    "modularizeImports": {
+      "@mui/icons-material": {
+        "transform": "@mui/icons-material/{{member}}"
+      },
+      "lodash": {
+        "transform": "lodash/{{member}}"
+      }
+    },
+    "outputFileTracingRoot": "/Users/rah/Desktop/GitHub/viewcomfy2_luo",
+    "cacheComponents": false,
+    "cacheLife": {
+      "default": {
+        "stale": 300,
+        "revalidate": 900,
+        "expire": 4294967294
+      },
+      "seconds": {
+        "stale": 30,
+        "revalidate": 1,
+        "expire": 60
+      },
+      "minutes": {
+        "stale": 300,
+        "revalidate": 60,
+        "expire": 3600
+      },
+      "hours": {
+        "stale": 300,
+        "revalidate": 3600,
+        "expire": 86400
+      },
+      "days": {
+        "stale": 300,
+        "revalidate": 86400,
+        "expire": 604800
+      },
+      "weeks": {
+        "stale": 300,
+        "revalidate": 604800,
+        "expire": 2592000
+      },
+      "max": {
+        "stale": 300,
+        "revalidate": 2592000,
+        "expire": 31536000
+      }
+    },
+    "cacheHandlers": {},
+    "experimental": {
+      "useSkewCookie": false,
+      "cssChunking": true,
+      "multiZoneDraftMode": false,
+      "appNavFailHandling": false,
+      "prerenderEarlyExit": true,
+      "serverMinification": true,
+      "serverSourceMaps": false,
+      "linkNoTouchStart": false,
+      "caseSensitiveRoutes": false,
+      "clientSegmentCache": true,
+      "dynamicOnHover": false,
+      "preloadEntriesOnStart": true,
+      "clientRouterFilter": true,
+      "clientRouterFilterRedirects": false,
+      "fetchCacheKeyPrefix": "",
+      "proxyPrefetch": "flexible",
+      "optimisticClientCache": true,
+      "manualClientBasePath": false,
+      "cpus": 13,
+      "memoryBasedWorkersCount": false,
+      "imgOptConcurrency": null,
+      "imgOptTimeoutInSeconds": 7,
+      "imgOptMaxInputPixels": 268402689,
+      "imgOptSequentialRead": null,
+      "imgOptSkipMetadata": null,
+      "isrFlushToDisk": true,
+      "workerThreads": false,
+      "optimizeCss": false,
+      "nextScriptWorkers": false,
+      "scrollRestoration": false,
+      "externalDir": false,
+      "disableOptimizedLoading": false,
+      "gzipSize": true,
+      "craCompat": false,
+      "esmExternals": true,
+      "fullySpecified": false,
+      "swcTraceProfiling": false,
+      "forceSwcTransforms": false,
+      "largePageDataBytes": 128000,
+      "typedEnv": false,
+      "clientTraceMetadata": [
+        "baggage",
+        "sentry-trace"
+      ],
+      "parallelServerCompiles": false,
+      "parallelServerBuildTraces": false,
+      "ppr": false,
+      "authInterrupts": false,
+      "webpackMemoryOptimizations": false,
+      "optimizeServerReact": true,
+      "viewTransition": false,
+      "removeUncaughtErrorAndRejectionListeners": false,
+      "validateRSCRequestHeaders": false,
+      "staleTimes": {
+        "dynamic": 0,
+        "static": 300
+      },
+      "reactDebugChannel": false,
+      "serverComponentsHmrCache": true,
+      "staticGenerationMaxConcurrency": 8,
+      "staticGenerationMinPagesPerWorker": 25,
+      "inlineCss": false,
+      "useCache": false,
+      "globalNotFound": false,
+      "browserDebugInfoInTerminal": false,
+      "lockDistDir": true,
+      "isolatedDevBuild": true,
+      "proxyClientMaxBodySize": 10485760,
+      "hideLogsAfterAbort": false,
+      "mcpServer": true,
+      "optimizePackageImports": [
+        "lucide-react",
+        "date-fns",
+        "lodash-es",
+        "ramda",
+        "antd",
+        "react-bootstrap",
+        "ahooks",
+        "@ant-design/icons",
+        "@headlessui/react",
+        "@headlessui-float/react",
+        "@heroicons/react/20/solid",
+        "@heroicons/react/24/solid",
+        "@heroicons/react/24/outline",
+        "@visx/visx",
+        "@tremor/react",
+        "rxjs",
+        "@mui/material",
+        "@mui/icons-material",
+        "recharts",
+        "react-use",
+        "effect",
+        "@effect/schema",
+        "@effect/platform",
+        "@effect/platform-node",
+        "@effect/platform-browser",
+        "@effect/platform-bun",
+        "@effect/sql",
+        "@effect/sql-mssql",
+        "@effect/sql-mysql2",
+        "@effect/sql-pg",
+        "@effect/sql-sqlite-node",
+        "@effect/sql-sqlite-bun",
+        "@effect/sql-sqlite-wasm",
+        "@effect/sql-sqlite-react-native",
+        "@effect/rpc",
+        "@effect/rpc-http",
+        "@effect/typeclass",
+        "@effect/experimental",
+        "@effect/opentelemetry",
+        "@material-ui/core",
+        "@material-ui/icons",
+        "@tabler/icons-react",
+        "mui-core",
+        "react-icons/ai",
+        "react-icons/bi",
+        "react-icons/bs",
+        "react-icons/cg",
+        "react-icons/ci",
+        "react-icons/di",
+        "react-icons/fa",
+        "react-icons/fa6",
+        "react-icons/fc",
+        "react-icons/fi",
+        "react-icons/gi",
+        "react-icons/go",
+        "react-icons/gr",
+        "react-icons/hi",
+        "react-icons/hi2",
+        "react-icons/im",
+        "react-icons/io",
+        "react-icons/io5",
+        "react-icons/lia",
+        "react-icons/lib",
+        "react-icons/lu",
+        "react-icons/md",
+        "react-icons/pi",
+        "react-icons/ri",
+        "react-icons/rx",
+        "react-icons/si",
+        "react-icons/sl",
+        "react-icons/tb",
+        "react-icons/tfi",
+        "react-icons/ti",
+        "react-icons/vsc",
+        "react-icons/wi"
+      ],
+      "trustHostHeader": false,
+      "isExperimentalCompile": false
+    },
+    "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
+    "bundlePagesRouterDependencies": false,
+    "configFileName": "next.config.mjs",
+    "transpilePackages": [
+      "@color4bg/react",
+      "color4bg"
+    ],
+    "serverExternalPackages": [
+      "amqplib",
+      "connect",
+      "dataloader",
+      "express",
+      "generic-pool",
+      "graphql",
+      "@hapi/hapi",
+      "ioredis",
+      "kafkajs",
+      "koa",
+      "lru-memoizer",
+      "mongodb",
+      "mongoose",
+      "mysql",
+      "mysql2",
+      "knex",
+      "pg",
+      "pg-pool",
+      "@node-redis/client",
+      "@redis/client",
+      "redis",
+      "tedious"
+    ],
+    "turbopack": {
+      "debugIds": true,
+      "rules": {
+        "**/instrumentation-client.*": {
+          "condition": {
+            "not": "foreign"
+          },
+          "loaders": [
+            {
+              "loader": "/Users/rah/Desktop/GitHub/viewcomfy2_luo/node_modules/@sentry/nextjs/build/cjs/config/loaders/valueInjectionLoader.js",
+              "options": {
+                "values": {
+                  "_sentryRouteManifest": "{\"dynamicRoutes\":[{\"path\":\"/login/:login*?\",\"regex\":\"^/login(?:/(.*))?$\",\"paramNames\":[\"login\"],\"hasOptionalPrefix\":false},{\"path\":\"/portfolio/album/:id\",\"regex\":\"^/portfolio/album/([^/]+)$\",\"paramNames\":[\"id\"],\"hasOptionalPrefix\":false},{\"path\":\"/sso/:sso*?\",\"regex\":\"^/sso(?:/(.*))?$\",\"paramNames\":[\"sso\"],\"hasOptionalPrefix\":false}],\"staticRoutes\":[{\"path\":\"/\"},{\"path\":\"/apps\"},{\"path\":\"/editor\"},{\"path\":\"/image\"},{\"path\":\"/model\"},{\"path\":\"/playground\"},{\"path\":\"/portfolio\"},{\"path\":\"/portfolio/default\"},{\"path\":\"/video\"}],\"isrRoutes\":[]}",
+                  "_sentryNextJsVersion": "16.0.2",
+                  "_sentryRewritesTunnelPath": "/monitoring"
+                }
+              }
+            }
+          ]
+        },
+        "**/instrumentation.*": {
+          "condition": {
+            "not": "foreign"
+          },
+          "loaders": [
+            {
+              "loader": "/Users/rah/Desktop/GitHub/viewcomfy2_luo/node_modules/@sentry/nextjs/build/cjs/config/loaders/valueInjectionLoader.js",
+              "options": {
+                "values": {
+                  "__SENTRY_SERVER_MODULES__": {
+                    "@clerk/nextjs": "6.36.5",
+                    "@clerk/themes": "^2.4.35",
+                    "@color4bg/react": "^0.1.2",
+                    "@date-fns/utc": "^2.1.1",
+                    "@google/model-viewer": "^2.0.0",
+                    "@hookform/resolvers": "^5.2.2",
+                    "@img-comparison-slider/react": "^8.0.2",
+                    "@radix-ui/react-accordion": "^1.2.12",
+                    "@radix-ui/react-alert-dialog": "^1.1.15",
+                    "@radix-ui/react-aspect-ratio": "^1.1.8",
+                    "@radix-ui/react-avatar": "^1.1.11",
+                    "@radix-ui/react-checkbox": "^1.3.3",
+                    "@radix-ui/react-collapsible": "^1.1.12",
+                    "@radix-ui/react-context-menu": "^2.2.16",
+                    "@radix-ui/react-dialog": "^1.1.15",
+                    "@radix-ui/react-dropdown-menu": "^2.1.16",
+                    "@radix-ui/react-hover-card": "^1.1.15",
+                    "@radix-ui/react-icons": "^1.3.2",
+                    "@radix-ui/react-label": "^2.1.8",
+                    "@radix-ui/react-menubar": "^1.1.16",
+                    "@radix-ui/react-navigation-menu": "^1.2.14",
+                    "@radix-ui/react-popover": "^1.1.15",
+                    "@radix-ui/react-progress": "^1.1.8",
+                    "@radix-ui/react-radio-group": "^1.3.8",
+                    "@radix-ui/react-scroll-area": "^1.2.10",
+                    "@radix-ui/react-select": "^2.2.6",
+                    "@radix-ui/react-separator": "^1.1.8",
+                    "@radix-ui/react-slider": "^1.3.6",
+                    "@radix-ui/react-slot": "^1.2.4",
+                    "@radix-ui/react-switch": "^1.2.6",
+                    "@radix-ui/react-tabs": "^1.1.13",
+                    "@radix-ui/react-toast": "^1.2.15",
+                    "@radix-ui/react-toggle": "^1.1.10",
+                    "@radix-ui/react-toggle-group": "^1.1.11",
+                    "@radix-ui/react-tooltip": "^1.2.8",
+                    "@sentry/nextjs": "^10.27.0",
+                    "better-sqlite3": "^12.8.0",
+                    "class-variance-authority": "^0.7.1",
+                    "clsx": "^2.1.1",
+                    "cmdk": "^1.1.1",
+                    "date-fns": "^4.1.0",
+                    "embla-carousel-react": "^8.6.0",
+                    "file-type": "^21.1.0",
+                    "framer-motion": "^12.23.24",
+                    "input-otp": "^1.4.2",
+                    "lucide-react": "^0.553.0",
+                    "mime-types": "^3.0.1",
+                    "next": "16.0.2",
+                    "next-themes": "^0.4.6",
+                    "react": "19.2.3",
+                    "react-day-picker": "^9.13.0",
+                    "react-dom": "19.2.3",
+                    "react-hook-form": "^7.67.0",
+                    "react-resizable-panels": "^3.0.6",
+                    "react-zoom-pan-pinch": "^3.7.0",
+                    "recharts": "2.15.4",
+                    "sass": "^1.94.0",
+                    "sharp": "^0.34.5",
+                    "socket.io-client": "4.8.1",
+                    "sonner": "^2.0.7",
+                    "swr": "^2.3.6",
+                    "tailwind-merge": "^3.4.0",
+                    "tailwindcss-animate": "^1.0.7",
+                    "uuid": "13.0.0",
+                    "vaul": "^1.1.2",
+                    "zod": "^4.1.13",
+                    "zustand": "^5.0.8",
+                    "@tailwindcss/postcss": "^4.1.17",
+                    "@types/better-sqlite3": "^7.6.13",
+                    "@types/mime-types": "^3.0.1",
+                    "@types/node": "^24",
+                    "@types/react": "19.2.4",
+                    "@types/react-dom": "19.2.3",
+                    "@typescript-eslint/eslint-plugin": "^8.46.4",
+                    "@typescript-eslint/parser": "^8.46.4",
+                    "baseline-browser-mapping": "^2.9.14",
+                    "cross-env": "^10.1.0",
+                    "eslint": "^9.39.1",
+                    "eslint-config-next": "16.0.2",
+                    "openapi-typescript-codegen": "^0.29.0",
+                    "postcss": "^8",
+                    "tailwindcss": "^4.1.17",
+                    "typescript": "^5"
+                  },
+                  "_sentryNextJsVersion": "16.0.2",
+                  "_sentryRewritesTunnelPath": "/monitoring"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "root": "/Users/rah/Desktop/GitHub/viewcomfy2_luo"
+    },
+    "distDirRoot": ".next",
+    "_originalRewrites": {
+      "beforeFiles": [],
+      "afterFiles": [
+        {
+          "source": "/monitoring(/?)",
+          "has": [
+            {
+              "type": "query",
+              "key": "o",
+              "value": "(?<orgid>\\d*)"
+            },
+            {
+              "type": "query",
+              "key": "p",
+              "value": "(?<projectid>\\d*)"
+            },
+            {
+              "type": "query",
+              "key": "r",
+              "value": "(?<region>[a-z]{2})"
+            }
+          ],
+          "destination": "https://o:orgid.ingest.:region.sentry.io/api/:projectid/envelope/?hsts=0"
+        },
+        {
+          "source": "/monitoring(/?)",
+          "has": [
+            {
+              "type": "query",
+              "key": "o",
+              "value": "(?<orgid>\\d*)"
+            },
+            {
+              "type": "query",
+              "key": "p",
+              "value": "(?<projectid>\\d*)"
+            }
+          ],
+          "destination": "https://o:orgid.ingest.sentry.io/api/:projectid/envelope/?hsts=0"
+        }
+      ],
+      "fallback": []
+    }
+  },
+  "appDir": "/Users/rah/Desktop/GitHub/viewcomfy2_luo",
+  "relativeAppDir": "",
+  "files": [
+    ".next/routes-manifest.json",
+    ".next/server/pages-manifest.json",
+    ".next/build-manifest.json",
+    ".next/prerender-manifest.json",
+    ".next/server/functions-config-manifest.json",
+    ".next/server/middleware-manifest.json",
+    ".next/server/middleware-build-manifest.js",
+    ".next/server/app-paths-manifest.json",
+    ".next/app-path-routes-manifest.json",
+    ".next/server/server-reference-manifest.js",
+    ".next/server/server-reference-manifest.json",
+    ".next/BUILD_ID",
+    ".next/server/next-font-manifest.js",
+    ".next/server/next-font-manifest.json",
+    ".next/required-server-files.json",
+    ".next/server/instrumentation.js"
+  ],
+  "ignore": []
+}
