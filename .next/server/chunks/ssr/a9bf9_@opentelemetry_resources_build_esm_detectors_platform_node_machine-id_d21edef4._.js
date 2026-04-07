@@ -1,5 +1,0 @@
-;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="1078f091-0ac2-bd27-8a76-759f870a0190")}catch(e){}}();
-module.exports=[721161,a=>{"use strict";var b=a.i(233405);let c=a.i(224361).promisify(b.exec);a.s(["execAsync",0,c])},313054,a=>{"use strict";var b=a.i(721161),c=a.i(983737);async function d(){try{let a=(await (0,b.execAsync)('ioreg -rd1 -c "IOPlatformExpertDevice"')).stdout.split("\n").find(a=>a.includes("IOPlatformUUID"));if(!a)return;let c=a.split('" = "');if(2===c.length)return c[1].slice(0,-1)}catch(a){c.diag.debug(`error reading machine id: ${a}`)}}a.s(["getMachineId",()=>d])}];
-
-//# debugId=1078f091-0ac2-bd27-8a76-759f870a0190
-//# sourceMappingURL=a9bf9_%40opentelemetry_resources_build_esm_detectors_platform_node_machine-id_d21edef4._.js.map

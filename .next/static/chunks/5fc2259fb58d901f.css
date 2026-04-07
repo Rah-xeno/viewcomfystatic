@@ -1,1 +1,0 @@
-@keyframes spin{0%{transform:rotate(0)scale(1)}50%{transform:rotate(180deg)scale(1.2)}to{transform:rotate(360deg)scale(1)}}.spin{animation:2s linear infinite spin}

@@ -1,5 +1,0 @@
-;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="48d56107-8fb0-2dc7-eabc-04211c59f933")}catch(e){}}();
-module.exports=[915618,a=>{"use strict";let b=(0,a.i(170106).default)("plus",[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"M12 5v14",key:"s699le"}]]);a.s(["Plus",()=>b],915618)},198093,a=>{"use strict";var b=a.i(187924),c=a.i(50944),d=a.i(829399),e=a.i(572131);function f(){let a=(0,c.useParams)(),f=a?.id,[g,h]=e.default.useState("");return e.default.useEffect(()=>{let a=async()=>{try{let a=await fetch(`/api/albums/${f}`);if(a.ok){let b=await a.json();h(b.name||"作品册")}else h("作品册")}catch{h("作品册")}};f&&a()},[f]),(0,b.jsx)(d.default,{albumName:g,albumId:f,backHref:"/portfolio"})}a.s(["default",()=>f])},688840,a=>{a.v(b=>Promise.all(["server/chunks/ssr/node_modules_@google_model-viewer_lib_model-viewer_c02294d0.js"].map(b=>a.l(b))).then(()=>b(389875)))}];
-
-//# debugId=48d56107-8fb0-2dc7-eabc-04211c59f933
-//# sourceMappingURL=_b26d12dd._.js.map

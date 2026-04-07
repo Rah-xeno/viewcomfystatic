@@ -1,5 +1,0 @@
-;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="e61a24b2-cfd2-df02-36cb-3f3e2ba7f90f")}catch(e){}}();
-module.exports=[721161,a=>{"use strict";var b=a.i(233405);let c=a.i(224361).promisify(b.exec);a.s(["execAsync",0,c])},849065,a=>{"use strict";var b=a.i(522734),c=a.i(721161),d=a.i(983737);async function e(){try{return(await b.promises.readFile("/etc/hostid",{encoding:"utf8"})).trim()}catch(a){d.diag.debug(`error reading machine id: ${a}`)}try{return(await (0,c.execAsync)("kenv -q smbios.system.uuid")).stdout.trim()}catch(a){d.diag.debug(`error reading machine id: ${a}`)}}a.s(["getMachineId",()=>e])}];
-
-//# debugId=e61a24b2-cfd2-df02-36cb-3f3e2ba7f90f
-//# sourceMappingURL=a9bf9_%40opentelemetry_resources_build_esm_detectors_platform_node_machine-id_a098eec2._.js.map
