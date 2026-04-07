@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/check-expiry.cjs",
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "prebuild": "node scripts/check-expiry.cjs",
     "build": "next build",
+    "prestart": "node scripts/check-expiry.cjs",
     "start": "next start",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
