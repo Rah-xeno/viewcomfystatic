@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "debugId": "d7593089-ea5d-d903-019a-694f160fc963",
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/sentry.server.config.ts"],"sourcesContent":["// This file configures the initialization of Sentry on the server.\r\n// The config you add here will be used whenever the server handles a request.\r\n// https://docs.sentry.io/platforms/javascript/guides/nextjs/\r\n\r\nimport * as Sentry from \"@sentry/nextjs\";\r\n\r\nSentry.init({\r\n  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,\r\n\r\n  // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.\r\n  tracesSampleRate: 1,\r\n\r\n  // Enable logs to be sent to Sentry\r\n  enableLogs: true,\r\n\r\n  // Setting this option to true will print useful information to the console while you're setting up Sentry.\r\n  debug: false,\r\n});\r\n"],"names":[],"mappings":"wCAIA,AAEA,EAFA,CAAA,CAAA,QAEA,IAAW,CAAC,CACV,IAAK,QAAQ,GAAG,CAAC,sBAAsB,CAGvC,iBAAkB,EAGlB,YAAY,EAGZ,OAAO,CACT"}}]
+}

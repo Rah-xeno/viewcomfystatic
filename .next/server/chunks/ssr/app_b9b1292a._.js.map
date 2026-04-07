@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "debugId": "46f357fe-fac8-e322-848e-1d7a850ab123",
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/favicon.ico.mjs (structured image object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 32, height: 32 }\n"],"names":[],"mappings":"0GACe,CAAE,IADjB,AACiB,EADjB,CAAA,CAAA,QACiB,OAAG,CAAE,MAAO,GAAI,OAAQ,EAAG"}}]
+}
