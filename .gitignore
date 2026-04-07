@@ -1,6 +1,2 @@
-/node_modules
-.next/.DS_Store
-.DS_Store
-/public
-/.next/standalone
 /.next/dev
+/.next/standalone
